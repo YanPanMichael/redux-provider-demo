@@ -4,9 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "scripts": {
     "start": "browserify --debug --extension=js -o bundle.js index.js && http-server -p 8000"
   },
   "keywords": [
